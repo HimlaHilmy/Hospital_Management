@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book appointment | Health Care Hospital</title>
+    <meta
+      name="description"
+      content="Health Care Hospital, Dehiwala: 24/7 emergency care, diagnostics and specialist consultations."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="topbar">
+      <span
+        >Emergency, 24 hours:
+        <a href="tel:+94113046598">+94 11 304 6598</a></span
+      ><a href="mailto:healthcare@gmail.com">healthcare@gmail.com</a>
+    </div>
+    <header class="nav">
+      <a class="logo" href="Home.html"
+        ><span class="mark" aria-hidden="true"></span>Health Care
+        <b>Hospital</b></a
+      >
+      <button
+        class="burger"
+        aria-label="Menu"
+        aria-expanded="false"
+        aria-controls="menu"
+      >
+        <span></span>
+      </button>
+      <nav>
+        <ul id="menu" class="menu">
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="About.html">About us</a></li>
+          <li><a href="Service.html">Medical services</a></li>
+          <li><a href="Doctors.html">Doctors</a></li>
+          <li><a href="Contact.html">Contact us</a></li>
+          <li>
+            <a class="btn sm" href="Appointment.html">Book appointment</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="phead">
+        <h1>Book an appointment</h1>
+        <p>
+          Pick a department and a time. We confirm by phone within a few hours.
+        </p>
+      </section>
+      <section class="sec narrow">
+        <form class="form" id="apptForm" novalidate>
+          <label
+            >Full name<input id="aname" autocomplete="name" /><span
+              class="err"
+            ></span
+          ></label>
+          <label
+            >Phone<input id="aphone" type="tel" autocomplete="tel" /><span
+              class="err"
+            ></span
+          ></label>
+          <label
+            >Department<select id="adept">
+              <option value="">Select a department</option>
+              <option>General Medicine</option>
+              <option>Surgery</option>
+              <option>Pediatrics</option>
+              <option>Obstetrics & Gynecology</option>
+              <option>ENT</option>
+              <option>Ophthalmology</option>
+              <option>Dermatology</option>
+              <option>Physiotherapy</option>
+              <option>Mental Health</option>
+              <option>Preventive Health Checkups</option></select
+            ><span class="err"></span
+          ></label>
+          <label
+            >Preferred date<input id="adate" type="date" /><span
+              class="err"
+            ></span
+          ></label>
+          <label
+            >Preferred time<select id="atime">
+              <option value="">Select a time</option>
+              <option>Morning (8 am to 12 pm)</option>
+              <option>Afternoon (12 pm to 4 pm)</option>
+              <option>Evening (4 pm to 8 pm)</option></select
+            ><span class="err"></span
+          ></label>
+          <label
+            >Reason for visit (optional)<textarea
+              id="areason"
+              rows="3"
+            ></textarea>
+          </label>
+          <button class="btn" type="submit">Request appointment</button>
+          <p class="ok" role="status"></p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="fgrid">
+        <div>
+          <p class="logo light">
+            <span class="mark"></span>Health Care Hospital
+          </p>
+          <p>
+            Compassionate, patient-centred care for Dehiwala and greater
+            Colombo.
+          </p>
+        </div>
+        <div>
+          <h3>Visit</h3>
+          <p>123, Sri Saranankara Road, Dehiwala</p>
+          <p>Open 24 hours, every day</p>
+        </div>
+        <div>
+          <h3>Reach us</h3>
+          <p><a href="tel:+94113046598">+94 11 304 6598</a></p>
+          <p><a href="mailto:healthcare@gmail.com">healthcare@gmail.com</a></p>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <p><a href="Appointment.html">Book appointment</a></p>
+          <p><a href="Register.html">Patient registration</a></p>
+          <p><a href="Doctors.html">Our doctors</a></p>
+        </div>
+      </div>
+      <p class="copy">
+        &copy; 2026 Health Care Hospital. In an emergency, call +94 11 304 6598
+        or go to the nearest emergency room.
+      </p>
+    </footer>
+    <script src="Script.js"></script>
+  </body>
+</html>
